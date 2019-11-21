@@ -3,7 +3,7 @@ using System.IO;
 using Microsoft.Azure.Storage.Blob;
 using Microsoft.Extensions.FileProviders;
 
-namespace Strathweb.AspNetCore.AzureBlobFileProvider
+namespace NetCore.AzureBlobFileProvider
 {
     public class AzureBlobFileInfo : IFileInfo
     {

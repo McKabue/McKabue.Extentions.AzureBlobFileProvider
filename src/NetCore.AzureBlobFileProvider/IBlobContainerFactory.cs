@@ -1,6 +1,6 @@
 ﻿using Microsoft.Azure.Storage.Blob;
 
-namespace Strathweb.AspNetCore.AzureBlobFileProvider
+namespace NetCore.AzureBlobFileProvider
 {
     public interface IBlobContainerFactory
     {

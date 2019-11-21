@@ -1,7 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>[Kabue Charles](me@mckabue.com);</Authors>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Owners>mckabue</Owners>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,11 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Strathweb.AspNetCore.AzureBlobFileProvider\Strathweb.AspNetCore.AzureBlobFileProvider.csproj" />
+    <ProjectReference Include="..\NetCore.AzureBlobFileProvider\NetCore.AzureBlobFileProvider.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.Azure.Storage.Blob;
 using Microsoft.Extensions.FileProviders;
 
-namespace Strathweb.AspNetCore.AzureBlobFileProvider
+namespace NetCore.AzureBlobFileProvider
 {
     public class AzureBlobDirectoryContents : IDirectoryContents
     {
