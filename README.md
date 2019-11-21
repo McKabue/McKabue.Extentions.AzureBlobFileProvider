@@ -5,7 +5,7 @@ Azure Blob Storage file provider (`IFileProvider`) for ASP.NET Core.
 ### Installation
 
 ```
-Install-Package NetCore.AzureBlobFileProvider
+dotnet add package [McKabue.NetCore.AzureBlobFileProvider](https://www.nuget.org/packages/McKabue.NetCore.AzureBlobFileProvider/)
 ```
 
 ### Usage
