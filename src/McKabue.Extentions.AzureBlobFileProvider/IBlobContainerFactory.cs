@@ -1,6 +1,6 @@
 ﻿using Microsoft.Azure.Storage.Blob;
 
-namespace NetCore.AzureBlobFileProvider
+namespace McKabue.Extentions.AzureBlobFileProvider
 {
     public interface IBlobContainerFactory
     {

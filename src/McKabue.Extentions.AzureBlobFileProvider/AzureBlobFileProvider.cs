@@ -2,7 +2,7 @@
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Primitives;
 
-namespace NetCore.AzureBlobFileProvider
+namespace McKabue.Extentions.AzureBlobFileProvider
 {
     public class AzureBlobFileProvider : IFileProvider
     {

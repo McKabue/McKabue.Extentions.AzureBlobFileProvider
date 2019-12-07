@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NetCore.AzureBlobFileProvider
+namespace McKabue.Extentions.AzureBlobFileProvider
 {
     public class AzureBlobOptions
     {

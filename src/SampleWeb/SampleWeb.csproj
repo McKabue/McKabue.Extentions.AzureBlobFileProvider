@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetCore.AzureBlobFileProvider\NetCore.AzureBlobFileProvider.csproj" />
+    <ProjectReference Include="..\McKabue.Extentions.AzureBlobFileProvider\McKabue.Extentions.AzureBlobFileProvider.csproj" />
   </ItemGroup>
 
 </Project>

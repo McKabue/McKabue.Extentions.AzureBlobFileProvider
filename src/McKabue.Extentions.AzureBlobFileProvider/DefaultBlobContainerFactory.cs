@@ -3,7 +3,7 @@ using Microsoft.Azure.Storage;
 using Microsoft.Azure.Storage.Auth;
 using Microsoft.Azure.Storage.Blob;
 
-namespace NetCore.AzureBlobFileProvider
+namespace McKabue.Extentions.AzureBlobFileProvider
 {
     public class DefaultBlobContainerFactory : IBlobContainerFactory
     {

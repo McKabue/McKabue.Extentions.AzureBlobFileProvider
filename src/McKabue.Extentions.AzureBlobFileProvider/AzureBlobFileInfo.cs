@@ -3,7 +3,7 @@ using System.IO;
 using Microsoft.Azure.Storage.Blob;
 using Microsoft.Extensions.FileProviders;
 
-namespace NetCore.AzureBlobFileProvider
+namespace McKabue.Extentions.AzureBlobFileProvider
 {
     public class AzureBlobFileInfo : IFileInfo
     {

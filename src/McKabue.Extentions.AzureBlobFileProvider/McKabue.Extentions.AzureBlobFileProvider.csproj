@@ -5,18 +5,18 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <LangVersion>8.0</LangVersion>
     <Owners>mckabue</Owners>
-    <PackageId>McKabue.NetCore.AzureBlobFileProvider</PackageId>
+    <PackageId>McKabue.Extentions.AzureBlobFileProvider</PackageId>
     <Version>$(Version)</Version>
     <Owners>mckabue</Owners>
     <PackageReleaseNotes>$(ReleaseNotes)</PackageReleaseNotes>
 
     <Description>Azure Blob Storage file provider for ASP.NET Core.</Description>
     <PackageTags>azure;blob;storage;aspnetcore;mvc</PackageTags>
-    <PackageIconUrl>https://github.com/McKabue/NetCore.AzureBlobFileProvider/master/icon.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/McKabue/NetCore.AzureBlobFileProvider</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/McKabue/McKabue.Extentions.AzureBlobFileProvider/master/icon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/McKabue/McKabue.Extentions.AzureBlobFileProvider</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/McKabue/NetCore.AzureBlobFileProvider.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/McKabue/McKabue.Extentions.AzureBlobFileProvider.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using NetCore.AzureBlobFileProvider;
+using McKabue.Extentions.AzureBlobFileProvider;
 
 namespace SampleWeb
 {
