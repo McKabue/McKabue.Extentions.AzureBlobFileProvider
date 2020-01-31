@@ -44,7 +44,7 @@ namespace McKabue.Extentions.AzureBlobFileProvider
 
         public Stream CreateReadStream()
         {
-            var stream = new MemoryStream();
+            MemoryStream stream = new MemoryStream();
             _blockBlob.DownloadToStream(stream);
             stream.Position = 0;
             return stream;

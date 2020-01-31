@@ -12,7 +12,8 @@ namespace McKabue.Extentions.AzureBlobFileProvider
         public DefaultBlobContainerFactory(AzureBlobOptions azureBlobOptions)
         {
             CloudBlobClient blobClient;
-            if (azureBlobOptions.ConnectionString != null && CloudStorageAccount.TryParse(azureBlobOptions.ConnectionString, out var cloudStorageAccount))
+            if (azureBlobOptions.ConnectionString != null && 
+                CloudStorageAccount.TryParse(azureBlobOptions.ConnectionString, out CloudStorageAccount cloudStorageAccount))
             {
                 blobClient = cloudStorageAccount.CreateCloudBlobClient();
             }

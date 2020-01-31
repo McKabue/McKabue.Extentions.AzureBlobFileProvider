@@ -17,7 +17,7 @@ namespace McKabue.Extentions.AzureBlobFileProvider
 
             do
             {
-                var response = blob.ListBlobsSegmented(continuationToken);
+                BlobResultSegment response = blob.ListBlobsSegmented(continuationToken);
                 continuationToken = response.ContinuationToken;
                 _blobs.AddRange(response.Results);
             }

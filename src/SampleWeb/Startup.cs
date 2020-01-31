@@ -22,8 +22,8 @@ namespace SampleWeb
 
         public void ConfigureServices(IServiceCollection services)
         {
-            var blobOptions = Configuration.GetSection("AzureBlobOptions").Get<AzureBlobOptions>();
-            var azureBlobFileProvider = new AzureBlobFileProvider(blobOptions);
+            AzureBlobOptions blobOptions = Configuration.GetSection("AzureBlobOptions").Get<AzureBlobOptions>();
+            AzureBlobFileProvider azureBlobFileProvider = new AzureBlobFileProvider(blobOptions);
             services.AddSingleton(azureBlobFileProvider);
         }
 
@@ -34,7 +34,8 @@ namespace SampleWeb
                 app.UseDeveloperExceptionPage();
             }
 
-            var blobFileProvider = app.ApplicationServices.GetRequiredService<AzureBlobFileProvider>();
+            AzureBlobFileProvider blobFileProvider = 
+                app.ApplicationServices.GetRequiredService<AzureBlobFileProvider>();
             app.UseStaticFiles(new StaticFileOptions()
             {
                 FileProvider = blobFileProvider,
